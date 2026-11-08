@@ -1,0 +1,14 @@
+# videos and anything made from them stay OUT of git (faces!); share by link
+videos/
+annotated_videos/
+*.MOV
+*.mov
+*.mp4
+# model weights (downloaded automatically by Ultralytics)
+*.pt
+# environment / system
+yolo/
+.venv/
+__pycache__/
+.DS_Store
+runs/

@@ -1,0 +1,14 @@
+# Mac GPU (MPS) check and versions - run on 2026-11-07 12:44
+      Model Name: MacBook Pro
+      Model Identifier: Mac16,1
+      Chip: Apple M4
+      Memory: 16 GB
+  ProductName:		macOS
+  ProductVersion:		27.2
+  BuildVersion:		26B123
+Python 3.14.6
+torch 2.15.0 | ultralytics 8.4.204
+torch.backends.mps.is_built(): True
+torch.backends.mps.is_available(): True
+tensor on mps:0 - matmul ok: torch.Size([2000, 2000])
+yolo11s-pose ran with device=mps; boxes in first frame: 1

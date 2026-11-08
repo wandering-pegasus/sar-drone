@@ -1,0 +1,5 @@
+gpu,gpu_vram_total_mib,driver,model,dataset,imgsz,batch_requested,status,batch_used,peak_vram_mib_nvidia_smi,torch_peak_reserved_gb,torch_peak_allocated_gb,run_time_s_incl_setup,software,date,note
+NVIDIA GeForce RTX 3050 6GB Laptop GPU,6144,595.99.02,yolo11n-pose,tiger-pose,640,16,ok,16,2706,2.46,2.05,41.7,torch 2.15.0+cu132 (CUDA 13.2); ultralytics 8.4.203,2026-11-07,
+NVIDIA GeForce RTX 3050 6GB Laptop GPU,6144,595.99.02,yolo11s-pose,tiger-pose,640,16,ok,16,4340,4.05,3.74,126.3,torch 2.15.0+cu132 (CUDA 13.2); ultralytics 8.4.203,2026-11-07,
+NVIDIA GeForce RTX 3050 6GB Laptop GPU,6144,595.99.02,yolo11m-pose,tiger-pose,640,16,oom,,5772,5.51,5.42,75.3,torch 2.15.0+cu132 (CUDA 13.2); ultralytics 8.4.203,2026-11-07,out of memory at batch 16; Ultralytics retried by itself with batch 8 (peak shown is from that run)
+NVIDIA GeForce RTX 3050 6GB Laptop GPU,6144,595.99.02,yolo11m-pose,tiger-pose,640,8,ok,8,4506,4.21,4.01,137.1,torch 2.15.0+cu132 (CUDA 13.2); ultralytics 8.4.203,2026-11-07,

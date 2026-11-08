@@ -1,0 +1,4 @@
+model,imgsz,instance_recall_pct,person_A_pct,person_B_pct,frames_with_false_box_pct
+yolo11n-pose,1280,32.1,54.6,1.8,13.5
+yolo11s-pose,1280,46.4,76.7,5.5,4.9
+yolo11m-pose,1280,50.3,87.3,0.5,8.2

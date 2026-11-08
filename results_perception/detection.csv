@@ -1,0 +1,4 @@
+Video,Frames (person clearly in view),yolo11n-pose (%),yolo11s-pose (%),yolo11m-pose (%),Where it fails
+hide_and_return,1648,100.0,100.0,100.0,Person half behind the wall: found in 64.8/68.5/74.2% of those frames (n/s/m); sliver detections inside fully-hidden frames (false alarms) 0.0/0.6/1.5%
+standing_clothes,245,100.0,100.0,100.0,Person leaving/entering at the image edge: found in 70.2/76.0/77.9% of those frames (n/s/m); false alarms when nobody in view 0.0/1.8/1.8%
+lying_sofa,891 person-instances in 511 frames,1.8,3.7,11.3,"Two small, distant people lying on sofas (roughly 100-250 px wide in a 1920 px frame), partly behind chairs/tables (640 px input): right-sofa person found in 0-0.3% of frames; left-sofa person found in 2.9/6.5/19.8% (n/s/m); false boxes on furniture in 2.5/2.9/3.7% of frames; with imgsz 1280 (supplement) instance rate rises to 32.1/46.4/50.3%"
