@@ -1,0 +1,9 @@
+*.zip
+!results/**/ate.zip
+*.bag
+datasets/
+__pycache__/
+# evaluate.py regenerates gt.tum on every run (35 MB of copies); keep the repo small
+results/**/gt.tum
+# the team .gitignore ignores runs/ (YOLO output); ours holds raw trajectories + logs the evaluation reads
+!runs/

@@ -1,0 +1,39 @@
+{
+  "sequence": "MH_04_difficult",
+  "label": "loop closure on",
+  "run": "runs/MH_04_difficult/diag",
+  "config": "/home/u7923558/slam/ORB_SLAM3/Examples/Stereo-Inertial/EuRoC.yaml",
+  "gt_source": "/home/u7923558/datasets/euroc/MH_04_difficult/mav0/state_groundtruth_estimate0/data.csv",
+  "frames": 2032,
+  "frames_ok": 1999,
+  "map_resets_s": [
+    12.05
+  ],
+  "end_viba2_s": [
+    36.05
+  ],
+  "loop_closures_s": [],
+  "map_merges_s": [],
+  "eval_start_s": 37.05,
+  "eval_end_s": 101.55,
+  "evaluated_poses": 1268,
+  "evaluated_length_m": 74.03955480322634,
+  "ate_rmse_m": 0.06221503595213941,
+  "start_aligned_final_error_m": 0.8292362452714331,
+  "start_aligned_drift_pct": 1.1199908582314957,
+  "start_aligned_max_error_m": 1.3726870473996917,
+  "segment_drift": {
+    "10m": {
+      "segments": 984,
+      "mean_pct": 2.316222504271425,
+      "p95_pct": 3.3784666171752042,
+      "max_pct": 3.8580218697777533
+    },
+    "30m": {
+      "segments": 751,
+      "mean_pct": 1.2401963047842928,
+      "p95_pct": 2.009765147525611,
+      "max_pct": 2.131243394954166
+    }
+  }
+}

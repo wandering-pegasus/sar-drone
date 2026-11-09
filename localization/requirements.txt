@@ -1,0 +1,3 @@
+evo>=1.28
+numpy
+matplotlib

@@ -1,0 +1,37 @@
+{
+  "sequence": "MH_01_easy",
+  "label": "loop closure off",
+  "run": "runs/MH_01_easy/noLC_diag",
+  "config": "/home/u7923558/tsmc-drone/cs1-localization/configs/EuRoC_noLC.yaml",
+  "gt_source": "/home/u7923558/datasets/euroc/MH_01_easy/mav0/state_groundtruth_estimate0/data.csv",
+  "frames": 3682,
+  "frames_ok": 3678,
+  "map_resets_s": [],
+  "end_viba2_s": [
+    46.05
+  ],
+  "loop_closures_s": [],
+  "map_merges_s": [],
+  "eval_start_s": 47.05,
+  "eval_end_s": 184.05,
+  "evaluated_poses": 2719,
+  "evaluated_length_m": 72.48703212378871,
+  "ate_rmse_m": 0.03606429501993906,
+  "start_aligned_final_error_m": 0.023305475675225555,
+  "start_aligned_drift_pct": 0.03215123449312417,
+  "start_aligned_max_error_m": 0.15125943581793985,
+  "segment_drift": {
+    "10m": {
+      "segments": 2281,
+      "mean_pct": 0.8942944824221254,
+      "p95_pct": 2.7835696017628555,
+      "max_pct": 3.052576355848763
+    },
+    "30m": {
+      "segments": 1581,
+      "mean_pct": 0.46901674519024106,
+      "p95_pct": 1.200338915666786,
+      "max_pct": 1.2785349704803592
+    }
+  }
+}

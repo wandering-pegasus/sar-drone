@@ -1,0 +1,8 @@
+date: 2026-11-04T17:23:02+08:00
+algorithm: ORB-SLAM3 stereo-inertial (Examples/Stereo-Inertial/EuRoC.yaml, default)
+orbslam3_commit: 4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4
+cpu: Intel(R) Xeon(R) Platinum 8480+
+cores: 16
+ram: 503Gi
+gpu: none (ORB-SLAM3 is CPU-only)
+os: Red Hat Enterprise Linux 8.7 (Ootpa)

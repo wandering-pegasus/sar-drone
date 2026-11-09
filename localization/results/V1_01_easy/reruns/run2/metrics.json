@@ -1,0 +1,36 @@
+{
+  "sequence": "V1_01_easy",
+  "tag": "run2",
+  "algorithm": "ORB-SLAM3 (stereo-inertial)",
+  "commit": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "gt_source": "/home/u7923558/tsmc-drone/cs1-localization/gt/V1_01_easy_openvins_corrected.tum",
+  "est_source": "/home/u7923558/tsmc-drone/cs1-localization/runs/V1_01_easy/run2/f_V1_01_easy_run2.txt",
+  "matched_poses": 2792,
+  "est_time_span_s": 140.39999985694885,
+  "ate_rmse_m": 0.021801673465312494,
+  "rpe_1m_rmse_m": 0.013250572735933212,
+  "rpe_1m_mean_m": 0.012062829821565757,
+  "gt_length_m": 58.331594070728435,
+  "est_length_m": 58.13558035240662,
+  "final_error_m": 0.017795985387481752,
+  "drift_pct": 0.03050831315513802,
+  "timing": {
+    "frames": 2912,
+    "mean_ms": 29.942319711538463,
+    "median_ms": 29.247999999999998,
+    "p95_ms": 40.49759999999999,
+    "max_ms": 48.75
+  },
+  "maps_in_atlas": 1,
+  "machine": {
+    "date": "2026-11-04T17:23:02+08:00",
+    "algorithm": "ORB-SLAM3 stereo-inertial (Examples/Stereo-Inertial/EuRoC.yaml, default)",
+    "orbslam3_commit": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+    "cpu": "Intel(R) Xeon(R) Platinum 8480+",
+    "cores": "16",
+    "ram": "503Gi",
+    "gpu": "none (ORB-SLAM3 is CPU-only)",
+    "os": "Red Hat Enterprise Linux 8.7 (Ootpa)"
+  },
+  "length_ratio_1hz": 0.9914569727123117
+}

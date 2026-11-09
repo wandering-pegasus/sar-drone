@@ -1,0 +1,37 @@
+{
+  "sequence": "V1_01_easy",
+  "label": "loop closure off",
+  "run": "runs/V1_01_easy/noLC_diag",
+  "config": "/home/u7923558/tsmc-drone/cs1-localization/configs/EuRoC_noLC.yaml",
+  "gt_source": "/home/u7923558/tsmc-drone/cs1-localization/gt/V1_01_easy_openvins_corrected.tum",
+  "frames": 2912,
+  "frames_ok": 2809,
+  "map_resets_s": [],
+  "end_viba2_s": [
+    20.3
+  ],
+  "loop_closures_s": [],
+  "map_merges_s": [],
+  "eval_start_s": 21.3,
+  "eval_end_s": 145.55,
+  "evaluated_poses": 2469,
+  "evaluated_length_m": 53.1745651902811,
+  "ate_rmse_m": 0.022382991005607023,
+  "start_aligned_final_error_m": 0.03243449378632727,
+  "start_aligned_drift_pct": 0.06099625576676165,
+  "start_aligned_max_error_m": 0.090935908738148,
+  "segment_drift": {
+    "10m": {
+      "segments": 1972,
+      "mean_pct": 0.3520216532197742,
+      "p95_pct": 0.8010052389470974,
+      "max_pct": 1.1349270286910031
+    },
+    "30m": {
+      "segments": 1311,
+      "mean_pct": 0.10116338807162586,
+      "p95_pct": 0.16568191423042747,
+      "max_pct": 0.20260923779198187
+    }
+  }
+}

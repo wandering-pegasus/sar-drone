@@ -1,0 +1,49 @@
+{
+  "sequence": "MH_04_difficult",
+  "run": "runs/MH_04_difficult/diag",
+  "frames": 2032,
+  "frames_per_state": {
+    "initialising": 33,
+    "OK": 1999
+  },
+  "not_ok_intervals_s": [
+    [
+      0.05,
+      1.6
+    ],
+    [
+      12.1,
+      12.1
+    ]
+  ],
+  "lost_intervals_s": [],
+  "saved_trajectory_span_s": [
+    12.15,
+    100.45
+  ],
+  "sequence_span_s": 101.6,
+  "error_max_m": 0.18531480531350103,
+  "error_max_at_s": 46.65,
+  "brightness_ok_mean": 73.94261302609274,
+  "brightness_not_ok_mean": 118.11703791762844,
+  "speed_ok_mean_mps": 0.9266290563217137,
+  "speed_not_ok_mean_mps": 0.0039984603286765275,
+  "gyro_ok_mean_dps": 13.742707151388322,
+  "gyro_not_ok_mean_dps": 4.731749339883614,
+  "brightness_overall_p10_p50_p90": [
+    16.58072319030762,
+    78.15904235839844,
+    116.34142456054687
+  ],
+  "track_ms_mean": 37.76458316929134,
+  "track_ms_p95": 51.42439999999999,
+  "map_resets_s": [
+    12.1
+  ],
+  "frames_over_50ms": 155,
+  "error_at_speed_over_2mps_mean_m": 0.09079846900520507,
+  "error_at_speed_under_2mps_mean_m": 0.03086865246111144,
+  "error_dark_mean_m": 0.04326043658447839,
+  "error_not_dark_mean_m": 0.033615738635563455,
+  "dark_threshold_grey": 30
+}

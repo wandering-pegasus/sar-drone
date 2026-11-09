@@ -1,0 +1,37 @@
+{
+  "sequence": "V1_01_easy",
+  "label": "loop closure on",
+  "run": "runs/V1_01_easy/diag",
+  "config": "/home/u7923558/slam/ORB_SLAM3/Examples/Stereo-Inertial/EuRoC.yaml",
+  "gt_source": "/home/u7923558/tsmc-drone/cs1-localization/gt/V1_01_easy_openvins_corrected.tum",
+  "frames": 2912,
+  "frames_ok": 2809,
+  "map_resets_s": [],
+  "end_viba2_s": [
+    20.2
+  ],
+  "loop_closures_s": [],
+  "map_merges_s": [],
+  "eval_start_s": 21.2,
+  "eval_end_s": 145.55,
+  "evaluated_poses": 2471,
+  "evaluated_length_m": 53.21257840532169,
+  "ate_rmse_m": 0.02422951583442474,
+  "start_aligned_final_error_m": 0.037510589261549314,
+  "start_aligned_drift_pct": 0.07049195958111654,
+  "start_aligned_max_error_m": 0.08745922044020604,
+  "segment_drift": {
+    "10m": {
+      "segments": 1973,
+      "mean_pct": 0.37580175375403835,
+      "p95_pct": 0.8289496265789176,
+      "max_pct": 1.1116541377955227
+    },
+    "30m": {
+      "segments": 1312,
+      "mean_pct": 0.10721315668763526,
+      "p95_pct": 0.18651054048608431,
+      "max_pct": 0.2159637676828327
+    }
+  }
+}
